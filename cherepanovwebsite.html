@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RAIN&PST site</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="cherepanov.css">
+</head>
+<body data-bs-spy="scroll" data-bs-target="#navbar" data-bs-offset="70">
+
+    <!-- Navigation -->
+    <nav id="navbar" class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">RAIN&PST</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#services">What I do</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Sections -->
+    <header id="home" class="vh-100 d-flex align-items-center justify-content-center text-center text-white">
+        <div class="container">
+            <h1 class="animate__animated animate__fadeInDown">RAIN&PST</h1>
+            <p class="lead animate__animated animate__fadeInUp">Artist and Designer</p>
+        </div>
+    </header>
+
+    <section id="about" class="py-5">
+        <div class="container">
+            <h2 class="text-center">About Me</h2>
+            <p class="text-center">I`m a 17.year-old artist and designer. At the moment I am engaged in drawing, a little phography and design my game, which I will present on TLVL festival.</p>
+        </div>
+    </section>
+
+    <section id="services" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center">What I do</h2>
+            <div class="row">
+                <div class="col-md-4 text-center">
+                    <div class="service-box animate__animated animate__fadeInLeft">
+                        <i class="fas fa-laptop-code fa-4x mb-3"></i>
+                        <h4>Artist</h4>
+                        <p>I`m drawing anime arts, publish them and sometimes animate them.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 text-center">
+                    <div class="service-box animate__animated animate__fadeInUp">
+                        <i class="fas fa-mobile-alt fa-4x mb-3"></i>
+                        <h4>Board Game</h4>
+                        <p>I`m doing all designs for my board game</p>
+                    </div>
+                </div>
+                <div class="col-md-4 text-center">
+                    <div class="service-box animate__animated animate__fadeInRight">
+                        <i class="fas fa-search fa-4x mb-3"></i>
+                        <h4>Media</h4>
+                        <p>I work on the development of my social networks and promote myself to the masses.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio" class="py-5">
+        <div class="container">
+            <h2 class="text-center">Portfolio</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="portfolio-item animate__animated animate__zoomIn">
+                        <img src="portfolio1.jpg" class="img-fluid" alt="Project 1">
+                        <div class="portfolio-info">
+                            <h4>Anime Girl</h4>
+                            <p>Anime art for MONO</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="portfolio-item animate__animated animate__zoomIn">
+                        <img src="portfolio2.jpg" class="img-fluid" alt="Project 2">
+                        <div class="portfolio-info">
+                            <h4>Board Game</h4>
+                            <p>Designs of my board game</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="portfolio-item animate__animated animate__zoomIn">
+                        <img src="portfolio3.jpg" class="img-fluid" alt="Project 3">
+                        <div class="portfolio-info">
+                            <h4>Silence</h4>
+                            <p>Photo for social media</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="py-5">
+        <div class="container">
+            <h2 class="text-center">Contact Me</h2>
+            <form>
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <label for="name">Name</label>
+                        <input type="text" class="form-control" id="name" placeholder="Name">
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label for="email">Email</label>
+                        <input type="email" class="form-control" id="email" placeholder="Email">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea class="form-control" id="message" rows="4" placeholder="Message"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-center py-4">
+        <p>&copy; 2024 Daniel Cherepanov. Website project for VA.</p>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="scripts.js"></script>
+</body>
+</html>
